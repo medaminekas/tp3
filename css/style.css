@@ -1,0 +1,50 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f4f8;
+    color: #333333;
+    margin: 0px;
+    padding: 30px 15px 30px 15px;
+    line-height: 1.6rem;
+}
+.container{
+    max-width: 800px;
+    margin: 8px auto ;
+}
+.header-box{
+    background-color: #1e3c72;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card{
+    background-color: #ffffff;
+    padding: 20px 25px 20px 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.meta-info{
+    font-size: 0.85rem;
+    color: #e0e0e0;
+}
+.data-box{
+    background-color: #eef6ff;
+    border-left: 4px solid #1e3c72;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.items{
+    margin-left: 20px;
+}
+.items li{
+    margin-bottom: 8px;
+    color: #444444;
+}
+.important, dt{
+    font-weight: bold;
+    color: #1e3c72;
+}
