@@ -5,38 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        ol {
+            list-style-type: upper-roman;
+        }
+        ol>li>ul  {
+            list-style-type:square;
+
+        }
+        ol>li+li>ul{
+            list-style-image: url(../images/check.png);
+        }
+        li#none{
+            list-style-type: circle;
+            
+        }
+        
+    
+    </style>
 </head>
 
 <body>
-    <h1>Lettres de l'alphabet</h1>
-    <ol>
-        <li>Les <strong>voyelles</strong>
-            <br>
-            il ya 6 voyelles
-            <ul>
-                <li>a</li>
-                <li>e</li>
-                <li>i</li>
-                <li>o</li>
-                <li>u</li>
-                <li>y</li>
-            </ul>
-        </li>
+    <div class="container">
+        <h1 class="header-box">Lettres de l'alphabet</h1>
+        <div class="card">
+
+
+            <ol>
+                <li>Les <strong>voyelles</strong>
+                    <br>
+                    il ya 6 voyelles
+                    <ul>
+                        <li>a</li>
+                        <li>e</li>
+                        <li>i</li>
+                        <li>o</li>
+                        <li>u</li>
+                        <li>y</li>
+                    </ul>
+                </li>
 
 
 
 
-        <li>Les <strong>consonnes</strong>:il ya2 20 consonnes
-            <ul>
-                <li>b</li>
-                <li>f</li>
-                <li>j</li>
-                <li>p</li>
-                <li>h</li>
-            </ul>
-        </li>
-    </ol>
-    <a href="../index.html">Retour à l'aceuil</a>
+                <li>Les <strong>consonnes</strong>:il ya2 20 consonnes
+                    <ul>
+                        <li>b,c,d</li>
+                        <li>f,g,h</li>
+                        <li id="none">j,k,l,m,n</li>
+                        <li>p,q,r,s,t</li>
+                        <li>v,w,x,z</li>
+                    </ul>
+                </li>
+            </ol>
+            <a href="../index.html">Retour à l'aceuil</a>
+        </div>
+    </div>
+
 </body>
 
 </html>
